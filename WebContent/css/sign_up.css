@@ -1,0 +1,103 @@
+
+.login {
+    width: 40%;
+    height: 65.5%;
+    background-color: #f7be41;
+    border: none;
+    border-radius: 20%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.sign {
+    display: none;
+    width: 40%;
+    background: #f5d693;
+    border: none;
+    border-radius: 20%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.sign h1,
+.login h1  {
+    text-align: center;
+    font-size: 2rem;
+    color: #3b3939;
+}
+.sign h2,
+.login h2  {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #3b3939;
+    text-align: left;
+    margin-left: 27%;
+}
+
+.sign input {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    text-align: center;
+    width: 45%;
+    font-size: 1rem;
+    border: 2px solid #3b3939;
+    border-radius: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+.login input {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    text-align: center;
+    width: 45%;
+    font-size: 1rem;
+    border: 2px solid #3b3939;
+    border-radius: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+.login a {
+    float: right;
+}
+/* button {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 10%;
+    height: 10%;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fcad26;
+} */
+
+.sign .btn-2 {
+    background-color: darkorange;
+    border-radius: 30px;
+    padding: 12px 53px 12px 23px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.3s;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sign .btn-2 .round {
+    background-color: lightsalmon;
+}
+.sign .btn-2 .round i {
+    position: absolute;
+    top: 89%;
+    left: 55%;
+}
+.sign .btn-2:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: orangered;
+}

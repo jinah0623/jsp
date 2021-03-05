@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/port1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">
+
+    <script>
+        $(document).ready(function () {
+            $('#main_slide').bxSlider({
+                auto: true,
+                pause: 3000
+            });
+        });
+        $(document).ready(function() {
+            $('.new_banner').bxSlider({
+                mode: 'horizontal',
+                moveSlides: 1,
+                slideMargin: -80,
+                infiniteLoop: true,
+                slideWidth: 600,
+                minSlides: 3,
+                maxSlides: 3,
+                auto: true,
+                autoHover: true
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="inner">
+                <div id="header_logo">
+                    <h1><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+                </div>
+                <div id="header_menu">
+                    <ul>
+                        <li><a href="#">브랜드 소개</a></li>
+                        <li><a href="#">토퍼&매트리스</a></li>
+                        <li><a href="#">커튼</a></li>
+                        <li><a href="#">배게&이불솜</a></li>
+                        <li><a href="#">침구류</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+                <div id="header_icons">
+                    <div class="cart"><a href="#"></a></div>
+                    <div class="login"><a href="log_in.html"></a></div>
+                    <div class="search"><a href="#"></a></div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div id="main_slide">
+                <div><a href="#"><img src="img/main_slide_2.png" alt="main1"></a></div>
+                <div><a href="#"><img src="img/main_slide_1.png" alt="main2"></a></div>
+                <div><a href="#"><img src="img/main_slide_3.png" alt="main3"></a></div>
+            </div>
+            <div id="new">
+                <div id="inner">
+                    <h2>NEW</h2>
+                    <div class="new_banner">
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new1.png" alt="new1">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N"><a href="#">아늑한 모먼트 암막 커튼 베이지</a>
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩49,000</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new2.png" alt="new2">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N">클린 화이트 쉬폰 커튼(단품/세트)
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩28,400</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new3.png" alt="new3">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N">헨리 암막-커튼-오트밀(단품/세트)
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩42,700</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new4.png" alt="new4">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N">몰리 워싱 마이크로화이버 차렵이불 세트 차콜
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩149,000</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new5.png" alt="new5">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N">먼지없는 양면 고밀도 마레 호텔침구<br>차렵이불 세트-브릭
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩140,000</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_list">
+                            <a href="#">
+                                <div class="overlay_new"></div>
+                                <img class="options" src="img/options.png" alt="option">
+                                <img class="wish" src="img/heart.png" alt="wish">
+                                <img class="images" src="img/new6.png" alt="new6">
+                            </a>
+                            <div>
+                                <ul>
+                                    <li class="product_N">퍼프 파우더 양면 극세사 겨울 차렵이불 오트밀
+                                        <span class="product_ic">제작주문</span>
+                                    </li>
+                                    <li class="product_P">₩89,000</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="more">
+                <div id="inner">
+                    <div class="more_box">
+                        <div class="left">
+                            <div class="overlay_more"></div>
+                            <a href="#"><span>이불 겸 패드 <br> 더보기</span></a>
+                            <img src="img/more_1.png" alt="more1">
+                        </div>
+                        <div class="right_top">
+                            <div class="overlay_more2"></div>
+                            <a href="#"><span>따뜻한 겨울 이불<br>더보기</span></a>
+                            <a href="#"><img src="img/more2.png" alt="more2"></a>
+                        </div>
+                        <div class="right_bottom">
+                            <div class="overlay_more3"></div>
+                            <a href="#"><span>기능성 배게/배게솜<br>더보기</span></a>
+                            <a href="#"><img src="img/more3.png" alt="more3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="coupons">
+                <div id="monthly_coupon">
+                    <h1>이번 달엔 어떤 혜택이?</p>
+                    <h4>최대 5만원 등급 쿠폰</h1>
+                    <div class="click"><a href="#"> 확인하기 ></a></div>
+                </div>
+                <div id="kakaopay">
+                    <h1>딥슬립 X 카카오페이</h1>
+                    <h4>10만원 이상 결제 시 7천원 즉시할인</h4>
+                    <a href="#"><img src="img/kpay.png" alt=""></a>
+                </div>
+            </div>
+            <div id="brands">
+                <div id="inner">
+                    <h2>BRANDS</h2>
+                    <div>
+                        <a href="#">
+                            <div class="overlay_brands"></div>
+                            <img src="img/eightroom.png" alt="eightroom">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="overlay_brands"></div>
+                            <img src="img/maatila.png" alt="maatila">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="overlay_brands"></div>
+                            <img src="img/sleepgonggam.png" alt="sleepgonggam">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer_top">
+                <div id="inner">
+                    <div id="outer_left">
+                        <h2 class="left"><a href="#"> NEWS</a></h2>
+                        <div class="news_list">
+                            <ul>
+                                <li><a href="#">[DeepSleep] 2021 고객 감사 이벤트 당첨자 발표</a></li>
+                                <li><a href="#">[DeepSleep] 고객센터 점심시간 전화상담 중단 안내(2021/01/18~)</a></li>
+                                <li><a href="#">[DeepSleep] 기획전 댓글 이벤트 당첨자 발표</a></li>
+                                <li><a href="#">[공지사항][DeepSleep] 포토 리뷰 포인트 적립 지연 안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="outer_right">
+                        <h1 class="right">고객센터 1566-1111</h1>
+                        <p>운영시간 : 평일 9:00 ~ 17:30 (점심시간 : 12:30 ~ 13:30 <br><br><b>E-mail :</b> sd_help@naver.com </p>
+                        <div class="sns_icons">
+                            <a href="#">
+                                <div class="facebook"></div>
+                            </a>
+                            <a href="#">
+                                <div class="naver"></div>
+                            </a>
+                            <a href="#">
+                                <div class="kakaotalk"></div>
+                            </a>
+                            <a href="#">
+                                <div class="instagram"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_bottom">
+                <div id="inner">
+                    <p>COPYRIGHT(주)딥슬립 ALL RIGHTS RESERVED<br><br>본사이트내 모든 이미지는 출처 에이트룸, 수면공감, 바자르몰, 슬립앤슬립, 마틸라에 있습니다.</p>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>
